@@ -29,9 +29,9 @@ Step6. use command mongo to step into mongodb-cli and then
        
 Step7. Install fclone(Google or other By urself) and setup by fclone config
 
-Step8. wget https://github.com/swordman-sm/wizard_bot/releases/download/wiz_v11/wizard_bot_v0.11_2.zip
+Step8. wget https://github.com/swordman-sm/wizard_bot/releases/download/wiz_v11_2.1/wizard_bot_v0.11_2.1.zip
 
-Step9. unzip wizard_bot_v0.11_2.zip
+Step9. unzip wizard_bot_v0.11_2.1.zip
 
 Step10. modify config/config.properties as u like
 
