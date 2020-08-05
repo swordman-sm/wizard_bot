@@ -17,6 +17,8 @@ Step3. Modify redis.conf these places as below:
       
 Step4. use command redis-server to start redis
 
+U can choose local mongodb or mongodb atlas
+
 Step5. Install MongoDB(Google or other By urself)
 
 Step6. use command mongo to step into mongodb-cli and then
@@ -29,11 +31,29 @@ Step6. use command mongo to step into mongodb-cli and then
        
 Step7. Install fclone(Google or other By urself) and setup by fclone config
 
-Step8. wget https://github.com/swordman-sm/wizard_bot/releases/download/wiz_v11_2.1/wizard_bot_v0.11_2.1.zip
+Step8. wget https://github.com/swordman-sm/wizard_bot/releases/download/wizard_bot_v0.11_3/wizard_bot_v0.11_3.zip
 
-Step9. unzip wizard_bot_v0.11_2.1.zip
+Step9. unzip wizard_bot_v0.11_3.zip
 
 Step10. modify config/config.properties as u like
+
+If choose local mongodb：
+
+       mongodb.connect.type=local
+       mongodb.host=127.0.0.1
+       mongodb.port=27017
+       mongodb.username=wizard
+       mongodb.password=wizard
+       mongodb.database=wizard
+       
+If choose MongoDB Atlas modify
+
+       mongodb.connect.type=atlas
+       mongodb.host=cluster0.xxxx.gcp.mongodb.net
+       mongodb.port=27017  //blank or not both ok
+       mongodb.username=root
+       mongodb.password=xxxxxxxx
+       mongodb.database=wizard
 
 Step11. use command java -jar wizard.jar to start bot
 
