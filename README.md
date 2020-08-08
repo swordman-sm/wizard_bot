@@ -55,7 +55,7 @@ If choose MongoDB Atlas modify
        mongodb.password=xxxxxxxx
        mongodb.database=wizard
 
-Step11. use command java -jar wizard.jar to start bot
+Step11. use command sh restart.sh to start bot
 
 Step12. if u want background this process pls use nohup screen or tumx .etc (If u can not understand what i say pls give up,becauz am lazy)
        
